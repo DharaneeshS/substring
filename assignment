@@ -1,0 +1,7 @@
+string=input()  #getting input from user
+string=list(string)  #converting string into list
+l=[]
+for i in string:
+    if i not in l:
+        l.append(i)  #appending the non repeating elements
+print(len(l))  #printing length of list
